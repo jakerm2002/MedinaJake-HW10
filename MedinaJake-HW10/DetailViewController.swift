@@ -4,32 +4,21 @@
 //
 //  Created by Jake Medina on 11/16/23.
 //
+//  Filename: MedinaJake-HW10
+//  EID: jrm7784
+//  Course: CS371L
 
 import UIKit
 
 class DetailViewController: UIViewController {
 
-    var delegate: UIViewController?
     @IBOutlet weak var imageView: UIImageView!
-    
     var image: UIImage?
     
+    // set the image using the image passed from Main VC
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         imageView.image = image
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
