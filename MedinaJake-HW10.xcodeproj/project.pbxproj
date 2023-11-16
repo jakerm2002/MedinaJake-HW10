@@ -14,6 +14,7 @@
 		6677FCF82B0036A0004846B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6677FCF72B0036A0004846B0 /* Assets.xcassets */; };
 		6677FCFB2B0036A0004846B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6677FCF92B0036A0004846B0 /* LaunchScreen.storyboard */; };
 		6677FD032B004894004846B0 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6677FD022B004894004846B0 /* ImageViewCell.swift */; };
+		66B9E4DC2B069451005440C3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B9E4DB2B069451005440C3 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6677FCFA2B0036A0004846B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6677FCFC2B0036A0004846B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6677FD022B004894004846B0 /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
+		66B9E4DB2B069451005440C3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6677FCF22B00369F004846B0 /* ViewController.swift */,
 				6677FD022B004894004846B0 /* ImageViewCell.swift */,
 				6677FCF42B00369F004846B0 /* Main.storyboard */,
+				66B9E4DB2B069451005440C3 /* DetailViewController.swift */,
 				6677FCF72B0036A0004846B0 /* Assets.xcassets */,
 				6677FCF92B0036A0004846B0 /* LaunchScreen.storyboard */,
 				6677FCFC2B0036A0004846B0 /* Info.plist */,
@@ -143,6 +146,7 @@
 			files = (
 				6677FD032B004894004846B0 /* ImageViewCell.swift in Sources */,
 				6677FCF32B00369F004846B0 /* ViewController.swift in Sources */,
+				66B9E4DC2B069451005440C3 /* DetailViewController.swift in Sources */,
 				6677FCEF2B00369F004846B0 /* AppDelegate.swift in Sources */,
 				6677FCF12B00369F004846B0 /* SceneDelegate.swift in Sources */,
 			);
